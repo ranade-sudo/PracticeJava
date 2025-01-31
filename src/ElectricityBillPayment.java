@@ -26,7 +26,8 @@ public class ElectricityBillPayment {
         System.out.println("Total electricity bill for " + units + " units is: " + totalBill + " Rs.");
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter units consumed:");
         int units = sc.nextInt();
